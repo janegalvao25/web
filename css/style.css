@@ -1,0 +1,43 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#menu-horizontal{
+    background-color: rgb(71, 92, 151);
+
+}
+
+#menu-horizontal ul {
+    max-width: 800px;
+    list-style-type: none;
+    padding:0;
+    background-color: rgb(71, 92, 151);
+
+
+}
+
+#menu-horizontal ul li {
+    display: inline;
+}
+
+#menu-horizontal ul li a {
+    color: #fff;
+    padding:20px;
+    display:inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+}
+
+#menu-horizontal ul li a:hover {
+    background-color: rgb(10, 163, 173);
+    
+}
+
+#menu-horizontal ul li:last-child a {
+    float:right;
+    background-color: rgb(10, 163, 173);
+}
